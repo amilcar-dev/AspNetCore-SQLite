@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace SqlLite.Migrations
+namespace SQLite.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20210604143747_Initial")]
@@ -16,7 +16,7 @@ namespace SqlLite.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.6");
 
-            modelBuilder.Entity("SqlLite.Product", b =>
+            modelBuilder.Entity("SQLite.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

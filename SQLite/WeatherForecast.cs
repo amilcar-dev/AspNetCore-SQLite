@@ -1,6 +1,6 @@
 using System;
 
-namespace SqlLite
+namespace SQLite
 {
     public class WeatherForecast
     {

@@ -10,7 +10,7 @@ using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
 
-namespace SqlLite
+namespace SQLite
 {
     public class Startup
     {
@@ -28,7 +28,7 @@ namespace SqlLite
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "SqlLite", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "SQLite", Version = "v1" });
             });
 
             var contextOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
@@ -50,7 +50,7 @@ namespace SqlLite
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SqlLite v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "SQLite v1"));
             }
 
             app.UseHttpsRedirection();

@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using SqlLite;
+using SQLite;
 
     public class ApplicationDbContext : DbContext
     {

@@ -1,4 +1,4 @@
-﻿namespace SqlLite
+﻿namespace SQLite
 {
     public class Product
     {

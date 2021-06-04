@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SqlLite.Controllers
+namespace SQLite.Controllers
 {
     [ApiController]
     [Route("[controller]")]

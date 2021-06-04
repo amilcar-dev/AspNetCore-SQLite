@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace SqlLite.Migrations
+namespace SQLite.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -14,7 +14,7 @@ namespace SqlLite.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.6");
 
-            modelBuilder.Entity("SqlLite.Product", b =>
+            modelBuilder.Entity("SQLite.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

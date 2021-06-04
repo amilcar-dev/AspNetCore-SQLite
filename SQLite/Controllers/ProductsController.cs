@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SqlLite;
+using SQLite;
 
-namespace SqlLite.Controllers
+namespace SQLite.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
